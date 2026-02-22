@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSmartSpectraVideoSource_FileStream.a CMakeFiles/VideoSource_FileStream.dir/file_stream.cpp.o
+/usr/bin/ranlib libSmartSpectraVideoSource_FileStream.a
