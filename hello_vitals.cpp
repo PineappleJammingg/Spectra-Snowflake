@@ -38,8 +38,8 @@ int main(int argc, char** argv) {
         container::settings::OperationMode::Continuous,
         container::settings::IntegrationMode::Rest > settings;
 
-        settings.video_source.capture_device_index = 0;  // Default webcam
-        settings.video_source.input_video_path = "";     // Ensure file input disabled
+        settings.video_source.capture_device_index = -1;  // Default webcam (Doesn't work in WSL, so it's off for now.)
+        settings.video_source.input_video_path = "\wsl.localhost\Ubuntu-22.04\home\laneevanger\Spectra-Snowflake\WIN_20260221_23_10_39_Pro.mp4";
 
         // NOTE: If capture_width and/or capture_height is modified the HUD will also need to be changed
         settings.video_source.capture_width_px = 1280;
