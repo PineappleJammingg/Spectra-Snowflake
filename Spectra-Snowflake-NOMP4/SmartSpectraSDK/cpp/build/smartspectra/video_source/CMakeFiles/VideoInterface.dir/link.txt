@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSmartSpectraVideoInterface.a CMakeFiles/VideoInterface.dir/video_source.cpp.o CMakeFiles/VideoInterface.dir/resolution_selection_mode.cpp.o CMakeFiles/VideoInterface.dir/input_transform.cpp.o CMakeFiles/VideoInterface.dir/input_transformer.cpp.o
+/usr/bin/ranlib libSmartSpectraVideoInterface.a

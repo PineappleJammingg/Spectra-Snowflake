@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSmartSpectraGui.a CMakeFiles/Gui.dir/opencv_trace_plotter.cpp.o CMakeFiles/Gui.dir/confidence_thresholding.cpp.o CMakeFiles/Gui.dir/opencv_value_indicator.cpp.o CMakeFiles/Gui.dir/opencv_hud.cpp.o CMakeFiles/Gui.dir/opencv_element_fits.cpp.o CMakeFiles/Gui.dir/opencv_label.cpp.o
+/usr/bin/ranlib libSmartSpectraGui.a

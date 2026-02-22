@@ -1,0 +1,22 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/laneevanger/Spectra-Snowflake/SmartSpectraSDK/cpp/smartspectra/video_source/input_transform.cpp" "smartspectra/video_source/CMakeFiles/VideoInterface.dir/input_transform.cpp.o" "gcc" "smartspectra/video_source/CMakeFiles/VideoInterface.dir/input_transform.cpp.o.d"
+  "/home/laneevanger/Spectra-Snowflake/SmartSpectraSDK/cpp/smartspectra/video_source/input_transformer.cpp" "smartspectra/video_source/CMakeFiles/VideoInterface.dir/input_transformer.cpp.o" "gcc" "smartspectra/video_source/CMakeFiles/VideoInterface.dir/input_transformer.cpp.o.d"
+  "/home/laneevanger/Spectra-Snowflake/SmartSpectraSDK/cpp/smartspectra/video_source/resolution_selection_mode.cpp" "smartspectra/video_source/CMakeFiles/VideoInterface.dir/resolution_selection_mode.cpp.o" "gcc" "smartspectra/video_source/CMakeFiles/VideoInterface.dir/resolution_selection_mode.cpp.o.d"
+  "/home/laneevanger/Spectra-Snowflake/SmartSpectraSDK/cpp/smartspectra/video_source/video_source.cpp" "smartspectra/video_source/CMakeFiles/VideoInterface.dir/video_source.cpp.o" "gcc" "smartspectra/video_source/CMakeFiles/VideoInterface.dir/video_source.cpp.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

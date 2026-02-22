@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSmartSpectraTestUtilities.a CMakeFiles/TestUtilities.dir/test_utilities.cpp.o
+/usr/bin/ranlib libSmartSpectraTestUtilities.a
