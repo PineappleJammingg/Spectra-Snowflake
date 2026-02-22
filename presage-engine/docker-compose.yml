@@ -1,0 +1,22 @@
+services:
+  presage_core:
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: presage_engine
+    privileged: true
+    devices:
+      - /dev/video0:/dev/video0
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    environment:
+      - SMARTSPECTRA_API_KEY=${PRESAGE_API_KEY:-}
+      - PRESAGE_API_KEY=${PRESAGE_API_KEY:-}
+    volumes:
+      # Mount uploads directory to persist uploaded videos
+      - ./uploads:/app/uploads
+      - .:/app 
+    restart: unless-stopped

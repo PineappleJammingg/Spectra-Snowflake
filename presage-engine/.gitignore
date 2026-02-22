@@ -1,0 +1,17 @@
+build/
+*.o
+*.a
+*.so
+*.deb
+.DS_Store
+deps/httplib.h
+deps/json.hpp
+.env.env
+
+# CMake installer (downloaded file)
+cmake-3.27.0-linux-x86_64.sh
+
+# Uploaded videos (user data)
+uploads/
+uploads/*
+!uploads/.gitkeep
