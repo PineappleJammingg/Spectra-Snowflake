@@ -1,0 +1,3 @@
+/home/laneevanger/Spectra-Snowflake/build/CMakeFiles/hello_vitals.dir
+/home/laneevanger/Spectra-Snowflake/build/CMakeFiles/edit_cache.dir
+/home/laneevanger/Spectra-Snowflake/build/CMakeFiles/rebuild_cache.dir

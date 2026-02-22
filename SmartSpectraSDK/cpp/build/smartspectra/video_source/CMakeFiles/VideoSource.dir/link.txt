@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSmartSpectraVideoSource.a CMakeFiles/VideoSource.dir/factory.cpp.o
+/usr/bin/ranlib libSmartSpectraVideoSource.a

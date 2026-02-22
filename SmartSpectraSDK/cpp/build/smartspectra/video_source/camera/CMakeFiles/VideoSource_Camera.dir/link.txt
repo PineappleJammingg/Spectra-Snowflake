@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSmartSpectraVideoSource_Camera.a CMakeFiles/VideoSource_Camera.dir/camera_absl.cpp.o CMakeFiles/VideoSource_Camera.dir/camera_opencv.cpp.o CMakeFiles/VideoSource_Camera.dir/capture_video_source.cpp.o CMakeFiles/VideoSource_Camera.dir/camera_opencv_resolution.cpp.o CMakeFiles/VideoSource_Camera.dir/camera_v4l2.cpp.o
+/usr/bin/ranlib libSmartSpectraVideoSource_Camera.a
